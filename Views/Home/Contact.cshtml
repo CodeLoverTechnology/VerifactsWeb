@@ -37,14 +37,14 @@
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-7">
-                <form>
-                    <input type="text" class="form-control" placeholder="NAME" id="usr" name="name"><br />
+                <form action="/action_page.php" method="post">
+                    <input type="text" class="form-control" placeholder="NAME" id="usr" name="name" required><br />
 
-                    <input type="text" class="form-control" id="email" placeholder="EMAIL ID" name="email"><br />
+                    <input type="text" class="form-control" id="email" placeholder="EMAIL ID" name="email" required><br />
 
-                    <input type="tel" class="form-control" placeholder="CONTACT NO" name="pswd"><br />
+                    <input type="tel" class="form-control" pattern="[0-9]{10}" placeholder="CONTACT NO" name="pswd" required><br />
 
-                    <textarea class="form-control" rows="3" id="comment" placeholder="YOUR FEEDBACK HERE"></textarea><br />
+                    <textarea class="form-control" rows="3" id="comment" placeholder="YOUR FEEDBACK HERE" required></textarea><br />
 
                     <button type="submit" class="btn btn-primary" style="width:280px;">
                         SEND A REQUEST

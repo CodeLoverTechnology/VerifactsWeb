@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Verifacts</title>
+    <title>@ViewBag.Title - Verifyprism</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -40,7 +40,6 @@
                 </div>
 </nav>
         </div>
-        <div class="container-fluid body-content">
             @RenderBody()<br /><br /><br />
             <hr />
             <footer>
@@ -83,21 +82,23 @@
 
                         <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
                             <h2>FeedBack</h2>
-                            <form class="form-inline" action="/action_page.php">
+                            <form class="form-inline" action="/action_page.php" method="post">
 
-                                <input type="text" class="form-control" id="usr" placeholder="Name" name="Name" style="width:300px;"><br /><br />
+                                <input type="text" class="form-control" id="usr" placeholder="Name" name="Name" required style="width:300px;"><br /><br />
 
-                                <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email" name="email" style="width:300px;"><br /><br />
+                                <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email" name="email" required style="width:300px;"><br /><br />
 
-                                <input type="text" class="form-control" id="usr" placeholder="Designation" name="Designation" style="width:300px;"><br />
+                                <input type="text" class="form-control" id="usr" placeholder="Designation" name="Designation" required style="width:300px;"><br />
 
                                 <button class="btn btn-primary mb-2" style="width:281px; margin-top:20px;">Subscribe</button>
                             </form>
                         </div>
                     </div>
+                    <p style="margin-top:7px; color:white; text-align:center;">
+                       <b>© Copyright 2018. All Rights Reserved Design By CodeLover Technology Pvt. Ltd.</b>
+                    </p>
                 </div>
             </footer>
-        </div>
 
         @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
