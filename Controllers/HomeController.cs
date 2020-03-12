@@ -76,5 +76,30 @@ namespace VerifactsWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult ReadMore1()
+        {
+            return View();
+        }
+
+        public ActionResult ReadMore2()
+        {
+            return View();
+        }
+
+        public ActionResult ReadMore3()
+        {
+            return View();
+        }
+
+        public ActionResult ReadMore4()
+        {
+            return View();
+        }
+
+        public ActionResult StatusReport()
+        {
+            return View();
+        }
     }
 }

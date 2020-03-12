@@ -339,6 +339,11 @@
     <Content Include="Views\Home\Insights.cshtml" />
     <Content Include="Views\Home\PrivacyPolicy.cshtml" />
     <Content Include="Views\Home\OurAdvantage.cshtml" />
+    <Content Include="Views\Home\ReadMore1.cshtml" />
+    <Content Include="Views\Home\ReadMore2.cshtml" />
+    <Content Include="Views\Home\ReadMore3.cshtml" />
+    <Content Include="Views\Home\ReadMore4.cshtml" />
+    <Content Include="Views\Home\StatusReport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
