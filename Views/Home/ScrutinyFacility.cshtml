@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Online Scrutiny Facility";
+}
+
+
+    <div style="height:20px; width:100%;"></div><br /><br />
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5" style="background-color:black;">
+            <center>
+                <img src="~/images/verifacts-logo.jpg" height="200" width="290" style="margin-top:70px;"/>
+            </center>
+        </div>
+        <div class="col-sm-7" style="background-color:yellowgreen; height:350px; width:100%;">
+            <center style="margin-top:20px;">
+                <strong style="font-size:25px;">Verifyprism Scrutiny</strong>
+
+
+                <form action="/action_page.php" method="post">
+                    <input type="text" id="uname" placeholder="Company Id" name="uname" required
+                           style="width:350px; margin-top:45px; font-size:1em; padding:0.5em 1em; border:0;
+                    border-bottom:1px solid #dcdcdc; border-left:1px solid #dcdcdc; border-right:2px solid #dcdcdc;
+                    background:none; outline:none; margin-bottom:15px; box-sizing:border-box;"><br />
+
+                    <input type="password" id="pwd" placeholder="Password" name="pswd" required 
+                    style="width:350px; margin-top:20px; font-size:1em; padding:0.5em 1em; border:0;
+                    border-bottom:1px solid #dcdcdc; border-left:1px solid #dcdcdc; border-right:2px solid #dcdcdc;
+                    background:none; outline:none; margin-bottom:15px; box-sizing:border-box;"><br />
+
+                    <button type="submit" class="btn btn-primary" style="margin-top:40px; width:130px; font-size:20px;">Submit</button>
+                </form>
+            </center>
+            <p style="color:darkred"><b>Please enter log-in credentials</b></p>
+        </div>
+
+
+    </div>
+</div>

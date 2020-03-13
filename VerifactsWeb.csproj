@@ -344,6 +344,10 @@
     <Content Include="Views\Home\ReadMore3.cshtml" />
     <Content Include="Views\Home\ReadMore4.cshtml" />
     <Content Include="Views\Home\StatusReport.cshtml" />
+    <Content Include="Views\Home\ScrutinyFacility.cshtml" />
+    <Content Include="Views\Home\CdfClient.cshtml" />
+    <Content Include="Views\Home\OnlineCondadites.cshtml" />
+    <Content Include="Views\Home\EducationVerification.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

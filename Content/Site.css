@@ -29,6 +29,7 @@ textarea {
 .footer-top {
     background-color: #111;
     padding: 50px 0;
+    width:100%;
 }
 
 .segment-one h2 {

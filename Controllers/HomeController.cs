@@ -101,5 +101,25 @@ namespace VerifactsWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult ScrutinyFacility()
+        {
+            return View();
+        }
+
+        public ActionResult CdfClient()
+        {
+            return View();
+        }
+
+        public ActionResult OnlineCondadites()
+        {
+            return View();
+        }
+
+        public ActionResult EducationVerification()
+        {
+            return View();
+        }
     }
 }
