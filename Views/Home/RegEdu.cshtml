@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Registration Form";
+}
+
+
+    <div class="container">
+        <div style="height:20px;"></div><br />
+        <div style="background-color:aquamarine; height:40px;">
+            <h2 style="color:darkred; text-align:center;"><b>**** LOGIN ****</b></h2>
+        </div>
+        <div>
+            <br /><br />
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-8" style="border:2px dotted darkred;">
+                    <form action="/action_page.php" class="was-validated" method="post">
+                        <label for="text">Name:</label>
+                        <input type="text" placeholder="" name="name" required style="width:230px; margin-left:103px; margin-top:20px; border:1px solid gray; border-radius:5px;"><br />
+
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="" name="Email" required style="width:230px; margin-left:108px; margin-top:17px; border:1px solid gray; border-radius:5px;"><br />
+
+                        <label for="pwd">Password:</label>
+                        <input type="password" placeholder="" name="pswd" required style="width:230px; margin-left:80px; margin-top:17px; border:1px solid gray; border-radius:5px;"><br />
+                        
+                        <label for="pwd">Confirm Password:</label>
+                        <input type="password" placeholder="" name="pswd" required style="width:230px; margin-left:60px; margin-top:17px; border:1px solid gray; border-radius:5px;"><br /><br />
+
+                        <button type="submit" class="btn btn-primary" style="font-size:15px; margin-left:135px;">Login</button>
+                    </form>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>

@@ -348,6 +348,9 @@
     <Content Include="Views\Home\CdfClient.cshtml" />
     <Content Include="Views\Home\OnlineCondadites.cshtml" />
     <Content Include="Views\Home\EducationVerification.cshtml" />
+    <Content Include="Views\Home\EducationLogin.cshtml" />
+    <Content Include="Views\Home\ForgotPass.cshtml" />
+    <Content Include="Views\Home\RegEdu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

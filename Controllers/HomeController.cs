@@ -121,5 +121,20 @@ namespace VerifactsWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult EducationLogin()
+        {
+            return View();
+        }
+
+        public ActionResult ForgotPass()
+        {
+            return View();
+        }
+
+        public ActionResult RegEdu()
+        {
+            return View();
+        }
     }
 }
