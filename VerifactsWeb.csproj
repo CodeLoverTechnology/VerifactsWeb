@@ -156,21 +156,26 @@
     <Content Include="images\cr2.png" />
     <Content Include="images\cr3.png" />
     <Content Include="images\cr4.png" />
+    <Content Include="images\crimnal.png" />
     <Content Include="images\e-commerce.png" />
+    <Content Include="images\emp.jpg" />
     <Content Include="images\facilitation.png" />
     <Content Include="images\fake-certificate-on-rise-case-study_small-1.jpg" />
     <Content Include="images\FakeCompaniesOperatingintoPark_small.jpg" />
     <Content Include="images\finance.png" />
     <Content Include="images\fmcg.png" />
     <Content Include="images\hamer.png" />
+    <Content Include="images\hospital.jpg" />
     <Content Include="images\hospitality.png" />
     <Content Include="images\house.png" />
     <Content Include="images\ittool.png" />
+    <Content Include="images\lnc.jpg" />
     <Content Include="images\man-icon.png" />
     <Content Include="images\media.png" />
     <Content Include="images\medsin.png" />
     <Content Include="images\modern-india.png" />
     <Content Include="images\one-eye.png" />
+    <Content Include="images\ormsheet.jpg" />
     <Content Include="images\quality.png" />
     <Content Include="images\relaibility.png" />
     <Content Include="images\research.png" />
@@ -351,6 +356,13 @@
     <Content Include="Views\Home\EducationLogin.cshtml" />
     <Content Include="Views\Home\ForgotPass.cshtml" />
     <Content Include="Views\Home\RegEdu.cshtml" />
+    <Content Include="Views\Home\AddressVerification.cshtml" />
+    <Content Include="Views\Home\CriminalVerification.cshtml" />
+    <Content Include="Views\Home\ReferenceCheck.cshtml" />
+    <Content Include="Views\Home\GAPVerification.cshtml" />
+    <Content Include="Views\Home\PsychometricTest.cshtml" />
+    <Content Include="Views\Home\LicenceCheck.cshtml" />
+    <Content Include="Views\Home\EmploymentVerification.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

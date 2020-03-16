@@ -136,5 +136,40 @@ namespace VerifactsWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult AddressVerification()
+        {
+            return View();
+        }
+
+        public ActionResult CriminalVerification()
+        {
+            return View();
+        }
+
+        public ActionResult ReferenceCheck()
+        {
+            return View();
+        }
+
+        public ActionResult GAPVerification()
+        {
+            return View();
+        }
+
+        public ActionResult PsychometricTest()
+        {
+            return View();
+        }
+
+        public ActionResult LicenceCheck()
+        {
+            return View();
+        }
+
+        public ActionResult EmploymentVerification()
+        {
+            return View();
+        }
     }
 }
