@@ -8,38 +8,77 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:black;">
-                <a class="navbar-brand" href="#">
-                    <img src="~/images/verifacts-logo.jpg" alt="logo" width="185" height="57" />
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation" style="background-color:deepskyblue;">
-                    <span class="navbar-toggler-icon" style="background-color:deepskyblue;"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav text-center ml-auto">
-                        <li class="nav-item">
-                            <a href="../Home/Index" class="nav-link" style="color:#b3d9ff;"><b>HOME</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../Home/About" class="nav-link" style="color:#b3d9ff;"><b>ABOUT US</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../Home/ForCorporate" class="nav-link" style="color:#b3d9ff;"><b>FOR CORPORATE</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../Home/ForIndividual" class="nav-link" style="color:#b3d9ff;"><b>FOR INDIVIDUAL</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../Home/ForCandidate" class="nav-link" style="color:#b3d9ff;"><b>FOR CANDIDATE</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../Home/Contact" class="nav-link" style="color:#b3d9ff;"><b>CONTACT US</b></a>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
+    <div class="row">
+        @*<img src="~/images/verifacts-logo.jpg" />*@
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-2">
+            <a href="#">
+                <div class="text-center p-3 my-2">
+                    <div class="text-black-50 h2 mt-3"><u>VERIFYPRISM LLP</u><br /></div>
+                    <small style="font-size:20px;margin-top:-15px;">Stay secured stay successful</small>
 
-            @RenderBody()<br /><br /><br />
+                </div>
+                @*<img src="~/images/verifacts-logo.jpg" alt="logo" style="width:250px;height:150px;" class="navbar-brand img-thumbnail" />*@
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation" style="background-color:deepskyblue;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav text-center ml-auto">
+                    <li class="nav-item">
+                        <a href="../Home/Index" class="nav-link"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Home/About" class="nav-link"><b>ABOUT US</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <b> VERIFICATION</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><b>EMPLOYEE BACKGROUND VERIFICATION</b></a>
+                            <a class="dropdown-item" href="#"><b>TENANT VERIFICATION</b></a>
+                            <a class="dropdown-item" href="#"><b>GST SUPPLIER VERIFICATION</b></a>
+                            <a class="dropdown-item" href="#"><b>VENDOR VERIFICATION</b></a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <b> VERIFICATION</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><b>HR MANAGEMENT</b></a>
+                            <a class="dropdown-item" href="#"><b>HR AUDITS &amp; DIAGNOSTICS</b></a>
+                            <a class="dropdown-item" href="#"><b>PAYROLL MANAGEMENT AND STATUTORY COMPLIANCES</b></a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Home/About" class="nav-link"><b>DUE DILIGENCE</b></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <b> ASSET MANAGEMENT</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><b>ASSET MANAGEMENT</b></a>
+                            <a class="dropdown-item" href="#"><b>STOCK VERIFICATION</b></a>
+                            <a class="dropdown-item" href="#"><b>VERIFICATION OF HOARDING</b></a>
+                         </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="../Home/Contact" class="nav-link"><b>CONTACT US</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+        
+        <div class="row p-3 my-2  bg-light">
+            @RenderBody()
+        </div>
+        <br /><br /><br />
             <hr />
             <footer>
                 <div class="footer-top">
@@ -62,20 +101,21 @@
 
                         <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
                             <h2>Follow Us</h2>
-                            <a href="#" target="_blank" style="color: #b3d9ff;">
-                                <img class="site-icon" src="https://verifacts.co.in/wp-content/plugins/social-media-icons-widget/icons/medium/facebook.jpg" alt="Facebook" title="Facebook" height="32" width="32"> Facebook
+                            <i class="fa fa-linkedin-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
+                            <a href="#" target="_blank">
+
                             </a><br /><br />
 
                             <a href="#" target="_blank" style="color: #b3d9ff;">
-                                <img class="site-icon" src="https://verifacts.co.in/wp-content/plugins/social-media-icons-widget/icons/medium/linkedin.jpg" alt="LinkedIn" title="LinkedIn" height="32" width="32"> LinkedIn
+                                <i class="fa fa-youtube-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
                             </a><br /><br />
 
                             <a href="#" target="_blank" style="color: #b3d9ff;">
-                                <img class="site-icon" src="https://verifacts.co.in/wp-content/plugins/social-media-icons-widget/icons/medium/twitter.jpg" alt="Twitter" title="Twitter" height="32" width="32"> Twitter
+                                <i class="fa fa-twitter-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
                             </a><br /><br />
 
                             <a href="#" target="_blank" style="color: #b3d9ff;">
-                                <img class="site-icon" src="https://verifacts.co.in/wp-content/plugins/social-media-icons-widget/icons/medium/blog.jpg" alt="Blog" title="Blog" height="32" width="32"> Blog
+                                <i class="fa fa-rss-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
                             </a>
                         </div>
 
@@ -101,7 +141,7 @@
 
         @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)
+        @*@RenderSection("scripts", required: false)*@
 
 </body>
 </html>
