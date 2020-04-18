@@ -43,7 +43,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <b> VERIFICATION</b>
+                            <b> HR SERVICES</b>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#"><b>HR MANAGEMENT</b></a>
@@ -72,73 +72,69 @@
                 </ul>
             </div>
         </nav>
-    </div>
-
-        
-        <div class="row p-3 my-2  bg-light">
+    </div>       
+        <div class="container-fluid p-3 my-2  bg-light">
             @RenderBody()
         </div>
-        <br /><br /><br />
-            <hr />
-            <footer>
-                <div class="footer-top">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-12 segment-one">
-                            <h2>Quick Menu</h2>
-                            <ul>
-                                <li><a href="../Home/About" style="color: #b3d9ff;">About Us</a></li>
-                                <li><a href="../Home/Contact" style="color: #b3d9ff;">Contact Us</a></li>
-                                <li><a href="#" style="color: #b3d9ff;">Clients Speak</a></li>
-                                <li><a href="#" style="color: #b3d9ff;">Careers</a></li>
-                                <li><a href="#" style="color: #b3d9ff;">Press Releases</a></li>
-                                <li><a href="#" style="color: #b3d9ff;">Terms of Use</a></li>
-                                <li><a href="#" style="color: #b3d9ff;">Insights</a></li>
-                                <li><a href="#" style="color: #b3d9ff;">Privacy Policy</a></li>
-                                <li><a href="#" style="color: #b3d9ff;">Our Advantage</a></li>
-                            </ul>
-                        </div>
+        <div class="row" style="background-color:black;">
+            <footer class="container-fluid p-4">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <img src="~/images/verifacts-logo.jpg" class="img-fluid" />
+                    </div>
+                    <div class="col-md-6 col-sm-12 py-5">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <h2 class="bg-primary text-white p-2 rounded">Quick Menu</h2>
+                                <ul>
+                                    <li><a href="../Home/About" style="color: #b3d9ff;">About Us</a></li>
+                                    <li><a href="../Home/Contact" style="color: #b3d9ff;">Contact Us</a></li>
+                                    <li><a href="#" style="color: #b3d9ff;">Clients Speak</a></li>
+                                    <li><a href="#" style="color: #b3d9ff;">Careers</a></li>
+                                    <li><a href="#" style="color: #b3d9ff;">Press Releases</a></li>
+                                    <li><a href="#" style="color: #b3d9ff;">Terms of Use</a></li>
+                                    <li><a href="#" style="color: #b3d9ff;">Insights</a></li>
+                                    <li><a href="#" style="color: #b3d9ff;">Privacy Policy</a></li>
+                                    <li><a href="#" style="color: #b3d9ff;">Our Advantage</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <h2 class="bg-primary text-white p-2 rounded">Follow Us</h2>
 
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-linkedin-square fa-3x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
+                                </a>
 
-                        <div class="col-md-4 col-sm-6 col-xs-12 segment-two">
-                            <h2>Follow Us</h2>
-                            <i class="fa fa-linkedin-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
-                            <a href="#" target="_blank">
+                                <a href="#" target="_blank" style="color: #b3d9ff;">
+                                    <i class="fa fa-youtube-square fa-3x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
+                                </a>
 
-                            </a><br /><br />
+                                <a href="#" target="_blank" style="color: #b3d9ff;">
+                                    <i class="fa fa-twitter-square fa-3x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
+                                </a>
 
-                            <a href="#" target="_blank" style="color: #b3d9ff;">
-                                <i class="fa fa-youtube-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
-                            </a><br /><br />
+                                <a href="#" target="_blank" style="color: #b3d9ff;">
+                                    <i class="fa fa-rss-square fa-3x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
+                                </a>
+                                <br />
+                                <br />
+                                <div class="input-group">
+                                    <input type="text" placeholder="Please Enter Email ID For Regular Updates" aria-label="Please Enter Email ID For Regular Updates" title="Please Enter Email ID For Regular Updates" class="form-control" />
 
-                            <a href="#" target="_blank" style="color: #b3d9ff;">
-                                <i class="fa fa-twitter-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
-                            </a><br /><br />
+                                    @*<input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">*@
+                                    <div class="input-group-append">
+                                        <span class="input-group-text fa fa-arrow-right btn-primary"></span>
+                                     </div>
+                                </div>
 
-                            <a href="#" target="_blank" style="color: #b3d9ff;">
-                                <i class="fa fa-rss-square fa-2x text-white" style="color: #b3d9ff;" aria-hidden="true"></i>
-                            </a>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
-                            <h2>FeedBack</h2>
-                            <form class="form-inline" action="/action_page.php" method="post">
-
-                                <input type="text" class="form-control" id="usr" placeholder="Name" name="Name" required style="width:300px;"><br /><br />
-
-                                <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email" name="email" required style="width:300px;"><br /><br />
-
-                                <input type="text" class="form-control" id="usr" placeholder="Designation" name="Designation" required style="width:300px;"><br />
-
-                                <button class="btn btn-primary mb-2" style="width:281px; margin-top:20px;">Subscribe</button>
-                            </form>
+                            </div>
+                            <b class="text-primary">© Copyright 2018. All Rights Reserved Design By CodeLover Technology Pvt. Ltd.</b>
+                            
                         </div>
                     </div>
-                    <p style="margin-top:7px; color:white; text-align:center;">
-                       <b>© Copyright 2018. All Rights Reserved Design By CodeLover Technology Pvt. Ltd.</b>
-                    </p>
-                </div>
-            </footer>
-
+                    </div>
+</footer>
+        </div>
         @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
         @*@RenderSection("scripts", required: false)*@
